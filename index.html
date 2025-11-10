@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/happy-birthday.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=BBH+Sans+Bogle&family=Caprasimo&family=Coda:wght@400;800&family=Diplomata+SC&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet">
+
+    <title>Happy Birthday</title>
+</head>
+<body>
+    <section class="video-background">
+        <canvas id="confetti"></canvas>
+        <video autoplay loop muted playsinline>
+            <source src="assets/video.mp4" type="video/mp4">
+        </video>
+        <div class="overlay1"></div>
+        <div class="content">
+            <div>
+                <h1 class="happybday">Happy<br>Birthday<br>baby!</h1>
+            </div>
+            <div class="clickdiv">
+                <h4 class="clickhere">Click here to celebrate!</h4>
+                <button class="btn-clickme" id="btn-clickme">Click Me</button>
+            </div>
+        </div>
+    </section>
+    <section class="bday-bilboard">
+        <div class="wrapper">
+            <div class="item item1">Happy Birthday!</div>
+            <div class="item item2">Happy Birthday!</div>
+            <div class="item item3">Happy Birthday!</div>
+            <div class="item item4">Happy Birthday!</div>
+            <div class="item item5">Happy Birthday!</div>
+            <div class="item item6"></i>Happy Birthday!</div>
+            <div class="item item7"></i>Happy Birthday!</div>
+            <div class="item item8">Happy Birthday!</div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="image">
+            <img src="assets/cake.gif" alt="">
+        </div>
+        <div class="wishes">
+            <h1>Happy 21th Birthday Willy</h1>
+            <p>You truly are the best boyfriend I could ever ask for Willy. I truly can't believe we've been together for 5 years already and I got to watch you grow up from the best seat there is, right by your side. I'm so proud of the person you became Willy and I can't wait to watch you grow even more and achieve your goals. I truly love you so much Willy and I'm truly thankful for all the time we spent together, you truly make me the happiest I've ever been and I hope I make you happy as well. I will always be by your side baby, you can always rely on me because I'm here to stay. I can't wait to move in with you and kiss you goodmorning every single day (no exceptions -_-). I promise I will never take us for granted Willy and I will work hard every single day for you to give you anything you will ever dream of.<br>Again, Happy Birthday Baby!</p>
+        </div>
+    </section>
+    <section class="section3">
+        <h1>Photobooth</h1>
+
+        <div id="div1" class="photobooth-div visible" >
+            <div class="images">
+                <img class="photobooth" src="assets/photobooth.jpg" alt="">
+                <img class="photo-picture" src="assets/photo-picture.jpg" alt="">
+            </div>
+            <div class="text-photobooth">
+                <p>To create a memory from this special day!<br> Feel free to make as many as you want</p>
+                <p>To retake just reload the website</p>
+                <button id="photobooth-btn" class="photobooth-btn">Click here</button>
+            </div>
+        </div>
+
+        <div id="div2" class="container hidden">
+            <div id="photo-strip">
+
+                <div class="video-container">
+                <video id="video" autoplay></video>
+                <div class="overlay" id="overlay1"></div>
+                </div>
+                <div class="video-container">
+                <video id="video2" autoplay></video>
+                <div class="overlay" id="overlay2"></div>
+                </div>
+
+                <img src="assets/dog.png" alt="Top Dog Sticker" class="dog-sticker bottom-dog">
+                <img src="assets/pug.png" alt="Top Dog Sticker" class="dog-sticker top-dog">
+
+                <div class="message">
+                <h2 id="text">happy birthday baby!</h2>
+                <h3 id="text">11/11/2025</h3>
+            </div>
+        </div>
+
+      <div id="controls" class="controls">
+        <button id="capture-btn">Capture</button>
+        <button id="download-btn" style="display:none;">Download</button>
+      </div>
+
+    </div>
+    </section class="section4">
+        <div class="parent">
+            <div class="wish div1">What I wish for you</div>
+            <div class="wish div2">Making all your dreams come true</div>
+            <div class="wish div3">A lot of amazing adventures</div>
+            <div class="wish div4">Going to Japan again multiple times</div>
+            <div class="wish div5">Achiving financial success</div>
+            <div class="wish div6">Being happy everyday</div>
+            <div class="wish div7">Success in music</div>
+            <div class="wish div8">A lot of new cool clothes</div>
+            <div class="wish div9">A lot of resting because you deserve it</div>
+            <div class="wish div10">Being healthy and never worrying about health</div>
+            <div class="wish div11">Being able to ride all rollercoasters you want</div>
+            <div class="wish div12">Getting your dream car in the future</div>
+            <div class="wish div13">Having someone always there for you</div>
+        </div>
+    <section>
+
+    </section>
+        <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <script src="script.js"></script>
+</body>
+</html>
